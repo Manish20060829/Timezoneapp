@@ -29,6 +29,9 @@ option.textContent = country.replaceAll("/", ": ").replaceAll("_", " ");
 
 group.append(option);
 
+
+
+
 }
 
 setInterval(displaytime, 1000);
