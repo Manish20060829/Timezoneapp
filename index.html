@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>World Time App</title>
+    </head>
+    <body>
+
+      <header>WORLD TIME</header>
+
+      <div id = "container">
+        <div class = "custom-select">
+          <select id = "select">
+            <optgroup label = "Africa" id = "Africa" ></optgroup>
+            <optgroup label = "America" id = "America" ></optgroup>
+            <optgroup label = "Antarctica" id = "Antarctica"></optgroup>
+            <optgroup label = "Arctic" id = "Arctic"></optgroup>
+            <optgroup label = "Asia" id = "Asia"></optgroup>
+            <optgroup label = "Atlantic" id = "Atlantic"></optgroup>
+            <optgroup label = "Australia" id = "Australia"></optgroup>
+            <optgroup label = "Europe" id = "Europe"></optgroup>
+            <optgroup label = "Indian" id = "Indian"></optgroup>
+            <optgroup label = "Pacific" id = "Pacific"></optgroup>
+
+            
+          </select>
+           <span class = "custom-arrow"></span>
+
+
+        </div>
+
+
+        <p id = "time"></p>
+        <p id = "date"></p>
+
+        </div>
+
+
+      </div> 
+        
+
+      
+    
+
+    </body>
+
+<script src="node_modules/dayjs/dayjs.min.js"></script>   
+<script src="node_modules/dayjs/plugin/timezone.js"></script>
+<script src="node_modules/dayjs/plugin/utc.js"></script>
+<script src="index.js"></script>
+<script type="module" src="/index.js"></script>
+
+
+
+</html>
