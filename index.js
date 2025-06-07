@@ -1,6 +1,12 @@
-dayjs.extend(dayjs_plugin_utc);
+import dayjs from 'dayjs';
+import utc from 'dayjs/plugin/utc';
+import timezone from 'dayjs/plugin/timezone';
 
-dayjs.extend(dayjs_plugin_timezone);
+dayjs.extend(utc);
+
+dayjs.extend(timezone);
+
+
 
 
 const timelist = Intl.supportedValuesOf("timeZone");
@@ -41,8 +47,8 @@ function displaytime(){
    
 
 
-   date = dayjs().tz(select).format('dddd, D MMMM YYYY');
-   time = dayjs().tz(select).format('h:mm:ssA');
+   let date = dayjs().tz(select).format('dddd, D MMMM YYYY');
+   let time = dayjs().tz(select).format('h:mm:ssA');
 
    const date_html = document.getElementById("date");
    const time_html = document.getElementById("time");
