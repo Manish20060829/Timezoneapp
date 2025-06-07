@@ -1,3 +1,3 @@
 # This is Timezone App
 
-This is a demo project for my Git tutorial
+This is my timezoneapp which displays the timezones of different cities.
