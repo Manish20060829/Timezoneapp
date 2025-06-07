@@ -2,5 +2,5 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/timezoneapp/', // <-- use your repo name here
+  base: '/Timezoneapp/', // <-- use your repo name here
 });
