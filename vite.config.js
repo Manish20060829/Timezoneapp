@@ -1,4 +1,3 @@
 export default {
-  root: '.', 
-  base: '/Timezoneapp/'
-}
+  base: '/Timezoneapp/',
+};
